@@ -21,7 +21,7 @@ Using this
 After installing, just query with ?q="text" and it'll return the mp3 file in a json formated reply.
 
 Example requiest
-    http://tts.openert.com/?q=Haiz
+    http://tts.ertops.com/?q=Haiz
 
 Example reply
     { "success": true, "data":"http://vaassl3.acapela-group.com/MESSAGES/012099097112101108097071114111117112/AcapelaGroup_WebDemo_HTML/sounds/90862211_d14fac49b1bb9.mp3" }
@@ -29,7 +29,7 @@ Example reply
 You can also specift the sonid id via s= and voice with v= (see the test page's source for the mappings)
 
 Example request
-    http://tts.openert.com/?q=Haiz&s=sonid8&v=Nizareng
+    http://tts.ertops.com/?q=Haiz&s=sonid8&v=Nizareng
 
 (Reply has exactly the same format)
 
@@ -39,9 +39,9 @@ Parameters
 
 All parameters are GET encoded
 
-q - text to synthesize - defaults to "Hello, world!"
-s - sonid to use - defaults to "sonid9" (english, USA)
-v - voice to use - detaults to "Heather"
+* q - text to synthesize - defaults to "Hello, world!"
+* s - sonid to use - defaults to "sonid9" (english, USA)
+* v - voice to use - detaults to "Heather"
 
 
 
